@@ -58,6 +58,7 @@ h1 {
 main {
     text-align: center;
     margin-top: 70px;
+    overflow: auto;
 }
 
 .main-title {
@@ -73,6 +74,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 26px;
+    padding-top: 30px;
+    padding-bottom: 36px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+.container-2 {
+    margin-right: 70px;
+    margin-top: 30px;
 }
 
 .spiegazione {
@@ -102,7 +114,15 @@ main {
     display: flex;
     flex-direction: column;
    padding: 12px;
-   gap: 15px;
+   gap: 22px;
+   align-items: start;
+   width: fit-content;
+   margin: auto;
+   list-style: none;
+}
+
+.list-span {
+    margin-right: 20px;
 }
 
 
