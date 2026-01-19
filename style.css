@@ -29,8 +29,6 @@ h1 {
     height: 14px;
     border-radius: 12px;
     margin: 0 16px;
-    position: relative;
-    
 }
 
 .btn:first-of-type {
@@ -45,14 +43,66 @@ h1 {
 }
 
 #first {
-    position: absolute;
-    right: 204px;
-    top: 93px;
+    position: relative;
+    right: 29px;
+    top: 0.5px;
 }
 
 #second {
-    position: absolute;
-    right: 116px;
-    top: 93px;
+    position: relative;
+    right: 38px;
+    top: 0.5px;
     color: rgba(0, 0, 0, 0.604);
 }
+
+main {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.main-title {
+    text-align: start;
+    margin-left: 40px;
+}
+
+.number {
+    font-size: 45px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.spiegazione {
+    margin-top: 22px;
+    .percentuale {
+        border-radius: 8px;
+        background-color: rgba(128, 128, 128, 0.462);
+        border: 1px solid rgba(128, 128, 128, 0.06);
+        border-width: 4px;
+        
+        font-size: 12px;
+        }
+}
+
+.plan {
+    margin-top: 20px;
+    .choose {
+        color: white;
+        border-radius: 8px;
+        border: 16px solid rgb(116, 43, 226);
+        background-color: rgb(116, 43, 226);
+        padding: 0 4rem;
+ }
+}
+
+.start-list {
+    display: flex;
+    flex-direction: column;
+   padding: 12px;
+   gap: 15px;
+}
+
+
