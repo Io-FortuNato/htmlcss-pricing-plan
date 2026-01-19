@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+max-width: 512px;
+font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.604);
+}
+
+h1 {
+    color: black;
+}
+
+.spn-header {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 22px;
+    height: 14px;
+    border-radius: 12px;
+    margin: 0 16px;
+    position: relative;
+    
+}
+
+.btn:first-of-type {
+    background-color: black;
+    border: none;
+}
+
+.sphere {
+    width: 13px;
+    height: 13px;
+    border-radius: 22px;
+}
+
+#first {
+    position: absolute;
+    right: 204px;
+    top: 93px;
+}
+
+#second {
+    position: absolute;
+    right: 116px;
+    top: 93px;
+    color: rgba(0, 0, 0, 0.604);
+}
